@@ -78,8 +78,8 @@ page2="""
 """
 
 pages={
-	"Page1":page1,
-	"Page2":page2
+	"Coins":page1,
+	"Trending":page2
 }
 
 Gui(pages=pages).run(port="auto", use_reloader=True)
